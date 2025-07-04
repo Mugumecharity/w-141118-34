@@ -1,0 +1,19 @@
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://mugumecharity.org/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 10
+
+# Charity-specific optimization
+Allow: /donate
+Allow: /volunteer
+Allow: /programs
+Allow: /impact
+
+# Block any test or development paths
+Disallow: /test/
+Disallow: /dev/
